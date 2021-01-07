@@ -29,7 +29,5 @@ def fit_parse(fitDir):
 
 
 if __name__=='__main__':
-    df=fit_parse('/home/cramirez/garminProj/GarminData/garminData/2020-07-05-07-34-07.fit')
-    # print(df)
-    # x=df.to_csv()
-    # print(df)
+    path_to_fit_file=''
+    df=fit_parse(path_to_fit_file)
